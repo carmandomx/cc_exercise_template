@@ -13,6 +13,18 @@ If you don't know how to fork please refer to this documentation: [https://docs.
 Forking a repo only creates a copy in your GitHub account not on your computer so the next step is to do just that.
 Clone the repo as you already know and if you don't remember how, please refer to this documentation: [https://docs.github.com/es/get-started/quickstart/fork-a-repo#cloning-your-forked-repository](Clone a forked repo@Github.com)
 
+## Create your own branch
+Don't work over the branch __master__, you need to create your own branch with the following name: __FirstNameLastName__ and you will work on this branch.
+
+To create a new branch based on __master__ you need to run the follwing commands:
+
+```bash
+git checkout -b CarlosReyes
+```
+
+You must notice that I used CarlosReyes this is because you need to pass the branch name there so I used my first name and my last name.
+
+
 ## Install packages
 Now we just install the packages by running this command 
 ```bash
@@ -30,6 +42,11 @@ You can always test if your solution will be valid by running the following comm
 ```bash
 $ npm test
 ```
+
+## Creating a Pull Request
+A Pull request or PR for short is a tool used to contribute code in a controlled environment aswell as providing tools for reviewing code this is a tool that you need to get accustomed to because you will use every single day as a developer.
+
+You can check this documentation to learn how to create a PR from a fork: [https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork](Creating a PR from a Fork@Github.com)
 
 ## Deliverable
 Refer to the moodle assignment for this part.
