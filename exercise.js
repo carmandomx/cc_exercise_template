@@ -1,5 +1,5 @@
 /** DO NOT CHANGE THE FUNCTION NAME **/
-const cToF = (c) => {
+const func = (c) => {
     /* Only make changes below this comment */
     
     
@@ -11,4 +11,4 @@ const cToF = (c) => {
 
 
 /** DO NOT CHANGE THE LINE BELOW **/
-module.exports.cToF = cToF;
+module.exports.func = func;
